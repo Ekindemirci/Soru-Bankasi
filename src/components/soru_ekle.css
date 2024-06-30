@@ -1,0 +1,37 @@
+.soru-ekle {
+    padding: 20px;
+    background-image: url('/Users/ozlemekindemirci/Documents/soru_bankasi2/src/assets/—Pngtree—tech background image of desktop_1089664.jpg');
+}
+  
+  .header {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+  }
+  
+  .question-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .question-card {
+    width: 300px;
+    padding: 20px;
+    background-color: #e6e6fa;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    margin: 3rem;
+  }
+  
+  .question-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .question-header h3 {
+    margin: 0;
+  }
+  
