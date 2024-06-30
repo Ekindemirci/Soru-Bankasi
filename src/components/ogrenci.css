@@ -1,0 +1,98 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.ogrenci-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.ogrenci-container h2 {
+  text-align: center;
+  color: #5e2a84; 
+  margin-bottom: 40px;
+}
+
+.exam-card {
+  border: 1px solid #f0f0f0;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.exam-card strong {
+  color: #5e2a84; 
+}
+
+.exam-card p {
+  margin: 5px 0;
+}
+
+.exam-card .ant-btn-primary {
+  background-color: #5e2a84;
+  border-color: #5e2a84;
+}
+
+.exam-card .ant-btn-primary:hover {
+  background-color: #4b216a;
+  border-color: #4b216a;
+}
+
+.exam-card .ant-btn {
+  float: right;
+  margin-top: 20px;
+}
+
+.details-link {
+  color: #5e2a84; 
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+  margin-top: 10px;
+}
+
+.details-link:hover {
+  text-decoration: underline;
+}
+
+
+.soru-ekle {
+  padding: 20px;
+  background-image: url('/Users/ozlemekindemirci/Documents/soru_bankasi2/src/assets/—Pngtree—tech background image of desktop_1089664.jpg');
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.question-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.question-card {
+  width: 400px; 
+  padding: 20px;
+  background-color: #c0eef0;
+  border: 1px solid #dcdcdc;
+  border-radius: 5px;
+  margin: 3rem;
+}
+
+.question-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.question-header h3 {
+  margin: 0;
+}
