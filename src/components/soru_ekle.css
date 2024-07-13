@@ -18,7 +18,11 @@
   .question-card {
     width: 300px;
     padding: 20px;
+<<<<<<< HEAD
     background-color: #c0eef0;
+=======
+    background-color: #e6e6fa;
+>>>>>>> 34c54ff1c018cafedd6cd138d8cef1650dac4756
     border: 1px solid #dcdcdc;
     border-radius: 5px;
     margin: 3rem;

@@ -10,7 +10,11 @@
   
   .question-card {
     width: 100%;
+<<<<<<< HEAD
     max-width: 600px; 
+=======
+    max-width: 600px; /* Sabit genişlik */
+>>>>>>> 34c54ff1c018cafedd6cd138d8cef1650dac4756
   }
   
   .radio-group {

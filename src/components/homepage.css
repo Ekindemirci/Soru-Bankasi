@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 
+=======
+/* homepage.css */
+>>>>>>> 34c54ff1c018cafedd6cd138d8cef1650dac4756
 .form {
     display: flex;
     justify-content: center;
@@ -13,7 +17,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+<<<<<<< HEAD
     background-color: rgba(255, 255, 255, 0.8); 
+=======
+    background-color: rgba(255, 255, 255, 0.8); /* semi-transparent background */
+>>>>>>> 34c54ff1c018cafedd6cd138d8cef1650dac4756
     padding: 20px;
     border-radius: 10px;
 }
@@ -30,5 +38,9 @@
 }
 
 .ant-btn {
+<<<<<<< HEAD
     width: 200px; 
+=======
+    width: 200px; /* Updated for better UI */
+>>>>>>> 34c54ff1c018cafedd6cd138d8cef1650dac4756
 }
