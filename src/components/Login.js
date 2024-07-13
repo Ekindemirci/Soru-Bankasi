@@ -2,23 +2,21 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Form, Input, Button, Checkbox, message } from 'antd';
 import './Login.css';
-<<<<<<< HEAD
 import users from './users'; 
-=======
-import users from './users'; // Assuming users is an array of user objects
->>>>>>> 34c54ff1c018cafedd6cd138d8cef1650dac4756
+
 
 const Login = () => {
   const [loading, setLoading] = useState(false);
   const [messageApi, contextHolder] = message.useMessage();
   const navigate = useNavigate();
+};
 
   const onFinish = (values) => {
     setLoading(true);
     const user = users.find(
       (u) => u.username === values.username && u.password === values.password
     );
-<<<<<<< HEAD
+
     console.log(user)
 
     if (user) {
@@ -30,7 +28,7 @@ const Login = () => {
       }
     } else {
       error();
-=======
+
 
     if (user) {
       if(user.role === 'ogretmen')
@@ -43,7 +41,7 @@ const Login = () => {
       }
     else {
       error()
->>>>>>> 34c54ff1c018cafedd6cd138d8cef1650dac4756
+
       console.error('Login failed: Invalid username or password');
       setLoading(false);
     }

@@ -1,11 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Form, Input, Button, Checkbox, Select } from 'antd';
-<<<<<<< HEAD
-import './register.css'; 
-=======
-import './register.css'; // Ensure you have a Register.css file for styling
->>>>>>> 34c54ff1c018cafedd6cd138d8cef1650dac4756
+import './register.css';
 import users from './users';
 
 const Register = () => {
@@ -15,11 +11,8 @@ const Register = () => {
   const onFinish = (values) => {
     setLoading(true);
     try {
-<<<<<<< HEAD
-     
-=======
-      // Create an object from the form values
->>>>>>> 34c54ff1c018cafedd6cd138d8cef1650dac4756
+
+
       const newUser = {
         username: values.username,
         password: values.password,
@@ -27,17 +20,10 @@ const Register = () => {
         role: values.role
       };
 
-<<<<<<< HEAD
+
       
       users.push(newUser);
 
-      
-=======
-      // Push the new user object to the users array
-      users.push(newUser);
-
-      // Redirect to the login page
->>>>>>> 34c54ff1c018cafedd6cd138d8cef1650dac4756
       navigate('/');
     } catch (error) {
       console.error('Registration failed:', error);
